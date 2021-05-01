@@ -1,0 +1,40 @@
+.card1 {
+  text-align: justify;
+  padding-left: 1vh;
+  padding-right: 1vh;
+  background-color: #fff;
+  box-shadow: 2px 3px 5px rgba(50, 50, 50, 0.77);
+  border-radius: 1vh;
+  margin-top: 3vh;
+  margin-bottom: 3vh;
+}
+
+h5 {
+  padding: 1.5vh;
+}
+
+p {
+  padding-left: 1.5vh;
+  padding-right: 1.5vh;
+}
+
+.bi-trash {
+  color: darkred;
+  font-size: 3vh;
+}
+
+.bi-pencil {
+  color: #1f4d42;
+  font-size: 3vh;
+}
+
+a {
+  margin-left: 1vh;
+  margin-bottom: 1vh;
+}
+
+@media screen and (max-width: 800px) {
+  p{
+    display: none;
+  }
+}

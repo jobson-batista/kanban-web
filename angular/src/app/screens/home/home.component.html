@@ -1,0 +1,18 @@
+<div class="cont">
+  <div class="head">
+    <h4>TODO</h4>
+    <h4>DOING</h4>
+    <h4>DONE</h4>
+  </div>
+  <div class="home">
+    <div class="todo">
+      <app-card *ngFor="let todo of todos" [title]="todo.title" [description]="todo.description"></app-card>
+    </div>
+    <div class="doing">
+      <app-card *ngFor="let do of doing" [title]="do.title" [description]="do.description"></app-card>
+    </div>
+    <div class="done">
+      <app-card *ngFor="let done of dones" [title]="done.title" [description]="done.description"></app-card>
+    </div>
+  </div>
+</div>

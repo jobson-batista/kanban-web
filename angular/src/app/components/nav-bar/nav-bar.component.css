@@ -1,0 +1,9 @@
+nav {
+  background-color: #1f4d42;
+}
+
+@media screen and (max-width: 550px) {
+  .nav {
+    width: 100vh;
+  }
+}
